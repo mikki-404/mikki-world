@@ -1,41 +1,29 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import GuideCard from "./TranslationsCards";
-import defaultImg from "../../Assets/Translations/translation-default.png";
+import GuideCard from "../Translations/TranslationsCards";
+import defaultImg from "../../Assets/Articles/brain.jpeg";
 /*import bitsOfCode from "../../Assets/Articles/blog.png";*/
 
-function Translations() {
+function Articles() {
     return (
         <Container fluid className="translations-section">
             {/*<Particle />*/}
             <Container>
                 <h1 className="translations-heading">
-                    Мои <strong className="purple">переводы </strong>
+                    Небольшие <strong className="purple">статьи и мысли </strong> на тульпотематику
                 </h1>
-                <p style={{ color: "white" }}>
-                    Здесь собраны некоторые гайды и статьи, переведенные мной.
-                </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <Col md={4} className="guide-card">
                         <GuideCard
                             imgPath={defaultImg}
                             isBlog={true}
-                            title="Тульпогайд в странное и удивительное"
-                            description="by Dragonheart"
-                            link="/tulpamancy-guide-into-the-strange-and-wonderful"
+                            title="Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»"
+                            description="Саммари"
+                            link="/gazzaniga"
                         />
                     </Col>
 
-                    <Col md={4} className="guide-card">
-                        <GuideCard
-                            imgPath={defaultImg}
-                            isBlog={true}
-                            title="FAQ по тульповодству"
-                            description="by Dragonheart"
-                            /*ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-                            demoLink="https://blogs.soumya-jit.tech/"*/
-                        />
-                    </Col>
+
 
                     {/*<Col md={4} className="project-card">
                         <ProjectCard
@@ -87,4 +75,4 @@ function Translations() {
     );
 }
 
-export default Translations;
+export default Articles;

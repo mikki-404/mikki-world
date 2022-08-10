@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
+import TranslatedFile from "./components/Translations/TranslatedFile";
+import Articles from "./components/Articles/Articles";
+import Article from "./components/Articles/Article";
 // import About from "./components/About/About";
 import Translations from "./components/Translations/Translations";
 import Footer from "./components/Footer";
@@ -37,6 +40,9 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/translations" element={<Translations />} />
+                    <Route path="/articles" element={<Articles />} />
+                    <Route path="/tulpamancy-guide-into-the-strange-and-wonderful" element={<TranslatedFile />} />
+                    <Route path="/gazzaniga" element={<Article />} />
                     {/*<Route path="/about" element={<About />} />*/}
                     {/*<Route path="/resume" element={<Resume />} />*/}
                     <Route path="*" element={<Navigate to="/"/>} />
