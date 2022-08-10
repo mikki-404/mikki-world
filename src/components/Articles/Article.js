@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {Container, Row} from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import myImg from "../../Assets/Articles/brain.jpeg";
 
 function Article() {
     const [width, setWidth] = useState(1200);
@@ -12,8 +13,10 @@ function Article() {
     return (
         <div>
             <Container fluid className="resume-section">
-
+                <img src={myImg} className="img-fluid" />
                 <Row className="resume">
+                    <h1>Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»</h1>
+                    <br/>
                     <p>Наш мозг не является монолитной системой, а имеет модульную иерархическую структуру, что
                         подтверждено многими современными исследованиями. Причина такого устройства мозга в том, чтобы
                         снизить энергопотребление при максимальной производительности мозга. Это порождает некоторую
