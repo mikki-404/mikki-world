@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/webapp/static/css/main.05db724c.css",
-    "main.js": "/webapp/static/js/main.3a1090a1.js",
+    "main.css": "/webapp/static/css/main.f4cc3238.css",
+    "main.js": "/webapp/static/js/main.e3005893.js",
     "static/js/787.bdfbb4fc.chunk.js": "/webapp/static/js/787.bdfbb4fc.chunk.js",
+    "static/media/drawing.png": "/webapp/static/media/drawing.35fdad43afbc2a01dedd.png",
     "static/media/avatar.png": "/webapp/static/media/avatar.9921753bdcafd405263c.png",
     "static/media/brain.jpeg": "/webapp/static/media/brain.c4f5a6dfc2bd9c569427.jpeg",
     "static/media/home-bg.jpeg": "/webapp/static/media/home-bg.dc52d5d40a40b13154b0.jpeg",
     "static/media/logo-white.png": "/webapp/static/media/logo-white.b7fa2a10e7ebba9d0ede.png",
     "static/media/translation-default.png": "/webapp/static/media/translation-default.f9fd11a8413d33aeea6f.png",
+    "static/media/brain_400x200.jpeg": "/webapp/static/media/brain_400x200.b43520f969f45cc9cc2f.jpeg",
+    "static/media/drawing_400x200.jpeg": "/webapp/static/media/drawing_400x200.b4d7c19412722f60fc87.jpeg",
     "static/media/pre.svg": "/webapp/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/webapp/index.html",
-    "main.05db724c.css.map": "/webapp/static/css/main.05db724c.css.map",
-    "main.3a1090a1.js.map": "/webapp/static/js/main.3a1090a1.js.map",
+    "main.f4cc3238.css.map": "/webapp/static/css/main.f4cc3238.css.map",
+    "main.e3005893.js.map": "/webapp/static/js/main.e3005893.js.map",
     "787.bdfbb4fc.chunk.js.map": "/webapp/static/js/787.bdfbb4fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05db724c.css",
-    "static/js/main.3a1090a1.js"
+    "static/css/main.f4cc3238.css",
+    "static/js/main.e3005893.js"
   ]
 }
