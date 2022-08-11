@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import brainImg from "../../Assets/Articles/brain_400x200.jpeg";
 import drawingImg from "../../Assets/Articles/drawing_400x200.jpeg";
+import tempImg from "../../Assets/Articles/temp_400x200.png";
 import TranslationCards from "../Translations/TranslationsCards";
 /*import bitsOfCode from "../../Assets/Articles/blog.png";*/
 
@@ -31,6 +32,16 @@ function Articles() {
                             title="Связь обучению рисованию и форсинга визуала"
                             description="Наблюдение, мысли"
                             link="/drawing-and-visual"
+                        />
+                    </Col>
+
+                    <Col md={4} className="article-card">
+                        <TranslationCards
+                            imgPath={tempImg}
+                            isBlog={true}
+                            title="Будущая статья"
+                            description="Здесь ничего пока нет"
+                            link="/"
                         />
                     </Col>
 
