@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import AllPagesPDFContainer from "../Articles/AllPagesPDFContainer";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const guideLink =
@@ -9,6 +10,7 @@ const guideLink =
 
 function TranslatedFile() {
     const [width, setWidth] = useState(1200);
+    const [numPages, setNumPages] = useState(null);
 
     useEffect(() => {
         setWidth(window.innerWidth);
@@ -16,13 +18,16 @@ function TranslatedFile() {
 
     return (
         <div>
-            <Container fluid className="resume-section">
+            <Container fluid className="translations-section">
 
-                <Row className="resume">
-                    <Document file={guideLink} className="d-flex justify-content-center">
-                        <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-                    </Document>
-                </Row>
+                <p className="article-metadata">Тульпогайд в странное и удивительное <b className="purple">by Dragonheart</b></p>
+                    {/*<Document file={guideLink} className="d-flex justify-content-center">*/}
+                    {/*    <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />*/}
+                    {/*</Document>*/}
+                    <div className="all-page-container">
+                        <AllPagesPDFContainer pdf={guideLink} />
+                    </div>
+
 
             </Container>
         </div>
