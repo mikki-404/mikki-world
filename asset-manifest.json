@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webapp/static/css/main.f4cc3238.css",
-    "main.js": "/webapp/static/js/main.6813acf6.js",
+    "main.css": "/webapp/static/css/main.11cd268e.css",
+    "main.js": "/webapp/static/js/main.154eb5d9.js",
     "static/js/787.bdfbb4fc.chunk.js": "/webapp/static/js/787.bdfbb4fc.chunk.js",
     "static/media/drawing.png": "/webapp/static/media/drawing.35fdad43afbc2a01dedd.png",
     "static/media/stockholm-banner.png": "/webapp/static/media/stockholm-banner.5aa4be75f13130552a97.png",
@@ -9,17 +9,17 @@
     "static/media/brain.jpeg": "/webapp/static/media/brain.c4f5a6dfc2bd9c569427.jpeg",
     "static/media/home-bg.jpeg": "/webapp/static/media/home-bg.dc52d5d40a40b13154b0.jpeg",
     "static/media/logo-white.png": "/webapp/static/media/logo-white.b7fa2a10e7ebba9d0ede.png",
-    "static/media/translation-default.png": "/webapp/static/media/translation-default.f9fd11a8413d33aeea6f.png",
     "static/media/brain_400x200.jpeg": "/webapp/static/media/brain_400x200.b43520f969f45cc9cc2f.jpeg",
     "static/media/drawing_400x200.jpeg": "/webapp/static/media/drawing_400x200.b4d7c19412722f60fc87.jpeg",
+    "static/media/temp_400x200.png": "/webapp/static/media/temp_400x200.41643ca007bb905d534c.png",
     "static/media/pre.svg": "/webapp/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/webapp/index.html",
-    "main.f4cc3238.css.map": "/webapp/static/css/main.f4cc3238.css.map",
-    "main.6813acf6.js.map": "/webapp/static/js/main.6813acf6.js.map",
+    "main.11cd268e.css.map": "/webapp/static/css/main.11cd268e.css.map",
+    "main.154eb5d9.js.map": "/webapp/static/js/main.154eb5d9.js.map",
     "787.bdfbb4fc.chunk.js.map": "/webapp/static/js/787.bdfbb4fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4cc3238.css",
-    "static/js/main.6813acf6.js"
+    "static/css/main.11cd268e.css",
+    "static/js/main.154eb5d9.js"
   ]
 }
