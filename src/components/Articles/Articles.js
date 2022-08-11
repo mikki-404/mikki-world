@@ -19,8 +19,8 @@ function Articles() {
                             imgPath={brainImg}
                             isBlog={true}
                             title="Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»"
-                            description="Саммари"
-                            link="/gazzaniga"
+                            description="Саммари, отзыв"
+                            link="/consciousness-by-gazzaniga"
                         />
                     </Col>
 
@@ -29,7 +29,7 @@ function Articles() {
                             imgPath={drawingImg}
                             isBlog={true}
                             title="Связь обучению рисованию и форсинга визуала"
-                            description="Наблюдение"
+                            description="Наблюдение, мысли"
                             link="/drawing-and-visual"
                         />
                     </Col>

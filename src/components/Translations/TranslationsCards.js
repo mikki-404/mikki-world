@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 function TranslationCards(props) {
     return (
         <Link to={props.link}>
-            <Card className="project-card-view" hoverable>
+            <Card className="blog-card-view" hoverable>
                 <Card.Img variant="top" src={props.imgPath} alt="card-img"/>
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>

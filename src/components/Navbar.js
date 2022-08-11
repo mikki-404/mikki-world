@@ -95,7 +95,7 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/articles"
+                                to="/blog"
                                 onClick={() => updateExpanded(false)}
                             >
                                 <ImBlog
