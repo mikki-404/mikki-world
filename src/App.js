@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import TranslatedFile from "./components/Translations/TranslatedFile";
 import Articles from "./components/Articles/Articles";
-import Article from "./components/Articles/Article";
+import GazzaniggaArticle from "./components/Articles/GazzaniggaArticle";
 // import About from "./components/About/About";
 import Translations from "./components/Translations/Translations";
 import Footer from "./components/Footer";
@@ -42,7 +42,7 @@ function App() {
                     <Route path="/translations" element={<Translations />} />
                     <Route path="/articles" element={<Articles />} />
                     <Route path="/tulpamancy-guide-into-the-strange-and-wonderful" element={<TranslatedFile />} />
-                    <Route path="/gazzaniga" element={<Article />} />
+                    <Route path="/gazzaniga" element={<GazzaniggaArticle />} />
                     {/*<Route path="/about" element={<About />} />*/}
                     {/*<Route path="/resume" element={<Resume />} />*/}
                     <Route path="*" element={<Navigate to="/"/>} />

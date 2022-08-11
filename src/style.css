@@ -599,15 +599,57 @@ button:focus {
     }
 }
 /* --------- */
-/* Resume */
+/* Article */
 /* --------- */
 
-.resume-section {
+.article-section {
     position: relative !important;
     padding-top: 110px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
     color: white !important;
+}
+
+.article-header-gazzanigga {
+    position: relative !important;
+    display: block;
+    height: 405px;
+    background: url(./Assets/Articles/brain.jpeg) center center no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    font-weight: 700;
+    color: #fff !important;
+    text-shadow: 6px 6px 6px #000;
+}
+
+.article-metadata {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff !important;
+    text-shadow: 6px 6px 6px #000;
+    justify-content: center;
+}
+
+.article-body {
+    font-size: 1.35em;
+    font-family: Harding,Palatino,serif;
+    color: #000; /* Цвет текста */
+}
+.article-card {
+    font-family: Harding,Palatino,serif;
+    color: #000; /* Цвет текста */
+    text-align: justify;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    height: auto !important;
+}
+
+.article-body>p {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    margin: 1.1rem 0;
 }
 
 .resume {

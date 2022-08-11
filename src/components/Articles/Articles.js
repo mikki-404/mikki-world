@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import GuideCard from "../Translations/TranslationsCards";
 import defaultImg from "../../Assets/Articles/brain.jpeg";
+import TranslationCards from "../Translations/TranslationsCards";
 /*import bitsOfCode from "../../Assets/Articles/blog.png";*/
 
 function Articles() {
@@ -14,7 +14,7 @@ function Articles() {
                 </h1>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <Col md={4} className="guide-card">
-                        <GuideCard
+                        <TranslationCards
                             imgPath={defaultImg}
                             isBlog={true}
                             title="Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»"
