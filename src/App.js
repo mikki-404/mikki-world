@@ -19,6 +19,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import DrawingArticle from "./components/Articles/DrawingArticle";
 
 function App() {
     const [load, updateLoad] = useState(true);
@@ -43,6 +44,7 @@ function App() {
                     <Route path="/articles" element={<Articles />} />
                     <Route path="/tulpamancy-guide-into-the-strange-and-wonderful" element={<TranslatedFile />} />
                     <Route path="/gazzaniga" element={<GazzaniggaArticle />} />
+                    <Route path="/drawing-and-visual" element={<DrawingArticle />} />
                     {/*<Route path="/about" element={<About />} />*/}
                     {/*<Route path="/resume" element={<Resume />} />*/}
                     <Route path="*" element={<Navigate to="/"/>} />
