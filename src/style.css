@@ -658,6 +658,24 @@ button:focus {
     height: auto !important;
 }
 
+@media (max-width: 800px) {
+    .article-body {
+        font-size: 1.2em;
+        font-family: Harding,Palatino,serif;
+        color: #000; /* Цвет текста */
+    }
+    .article-card {
+        font-family: Harding,Palatino,serif;
+        color: #000; /* Цвет текста */
+        text-align: justify;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        height: auto !important;
+    }
+}
+
 .article-body>p {
     padding-left: 50px !important;
     padding-right: 50px !important;
