@@ -10,7 +10,6 @@ const guideLink =
 
 function DragonheartGuideTranslation() {
     const [width, setWidth] = useState(1200);
-    const [numPages, setNumPages] = useState(null);
 
     useEffect(() => {
         setWidth(window.innerWidth);
