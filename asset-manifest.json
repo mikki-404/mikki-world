@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e13cb9dd.css",
-    "main.js": "/static/js/main.cf729247.js",
+    "main.css": "/static/css/main.d5cc96b7.css",
+    "main.js": "/static/js/main.42f735c7.js",
     "static/js/787.bdfbb4fc.chunk.js": "/static/js/787.bdfbb4fc.chunk.js",
     "static/media/drawing.png": "/static/media/drawing.35fdad43afbc2a01dedd.png",
     "static/media/stockholm-banner.png": "/static/media/stockholm-banner.5aa4be75f13130552a97.png",
@@ -16,12 +16,12 @@
     "static/media/drawing_400x200.jpeg": "/static/media/drawing_400x200.b4d7c19412722f60fc87.jpeg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.e13cb9dd.css.map": "/static/css/main.e13cb9dd.css.map",
-    "main.cf729247.js.map": "/static/js/main.cf729247.js.map",
+    "main.d5cc96b7.css.map": "/static/css/main.d5cc96b7.css.map",
+    "main.42f735c7.js.map": "/static/js/main.42f735c7.js.map",
     "787.bdfbb4fc.chunk.js.map": "/static/js/787.bdfbb4fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e13cb9dd.css",
-    "static/js/main.cf729247.js"
+    "static/css/main.d5cc96b7.css",
+    "static/js/main.42f735c7.js"
   ]
 }
