@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5cc96b7.css",
+    "main.css": "/static/css/main.39a878f3.css",
     "main.js": "/static/js/main.42f735c7.js",
     "static/js/787.bdfbb4fc.chunk.js": "/static/js/787.bdfbb4fc.chunk.js",
     "static/media/drawing.png": "/static/media/drawing.35fdad43afbc2a01dedd.png",
     "static/media/stockholm-banner.png": "/static/media/stockholm-banner.5aa4be75f13130552a97.png",
     "static/media/avatar.png": "/static/media/avatar.9921753bdcafd405263c.png",
-    "static/media/disintegration_full.jpeg": "/static/media/disintegration_full.176ee5cf9de7bcea694e.jpeg",
+    "static/media/disintegration_full.jpg": "/static/media/disintegration_full.e9272c1e7b482fc4c8ea.jpg",
     "static/media/brain.jpeg": "/static/media/brain.c4f5a6dfc2bd9c569427.jpeg",
     "static/media/default_400x200.png": "/static/media/default_400x200.f77cbac4cb6e76e1681e.png",
     "static/media/home-bg.jpeg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpeg",
@@ -16,12 +16,12 @@
     "static/media/drawing_400x200.jpeg": "/static/media/drawing_400x200.b4d7c19412722f60fc87.jpeg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.d5cc96b7.css.map": "/static/css/main.d5cc96b7.css.map",
+    "main.39a878f3.css.map": "/static/css/main.39a878f3.css.map",
     "main.42f735c7.js.map": "/static/js/main.42f735c7.js.map",
     "787.bdfbb4fc.chunk.js.map": "/static/js/787.bdfbb4fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5cc96b7.css",
+    "static/css/main.39a878f3.css",
     "static/js/main.42f735c7.js"
   ]
 }
