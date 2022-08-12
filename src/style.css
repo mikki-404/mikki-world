@@ -642,7 +642,7 @@ button:focus {
 }
 
 .article-body {
-    font-size: 1.35em;
+    font-size: 1.3em;
     font-family: Harding,Palatino,serif;
     color: #000; /* Цвет текста */
 }
@@ -650,29 +650,8 @@ button:focus {
     font-family: Harding,Palatino,serif;
     color: #000; /* Цвет текста */
     text-align: justify;
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-    padding-left: 50px !important;
-    padding-right: 50px !important;
+    padding: 50px !important;
     height: auto !important;
-}
-
-@media (max-width: 800px) {
-    .article-body {
-        font-size: 1.2em;
-        font-family: Harding,Palatino,serif;
-        color: #000; /* Цвет текста */
-    }
-    .article-card {
-        font-family: Harding,Palatino,serif;
-        color: #000; /* Цвет текста */
-        text-align: justify;
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-        height: auto !important;
-    }
 }
 
 .article-body>p {
@@ -680,6 +659,31 @@ button:focus {
     padding-right: 50px !important;
     margin: 1.1rem 0;
 }
+
+@media (max-width: 767px) {
+
+    .article-body {
+        font-size: 1.2em;
+        font-family: Harding,Palatino,serif;
+        color: #000; /* Цвет текста */
+    }
+
+    .article-card {
+        font-family: Harding,Palatino,serif;
+        color: #000; /* Цвет текста */
+        text-align: justify;
+        padding: 10px !important;
+        height: auto !important;
+    }
+
+    .article-body>p {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        margin: 1.1rem 0;
+    }
+}
+
+
 
 .translation {
     padding-top: 50px;
