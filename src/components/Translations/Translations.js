@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import defaultImg from "../../Assets/Articles/temp_400x200.png";
+import defaultImg from "../../Assets/default_400x200.png";
 import TranslationCards from "./TranslationsCards";
 
 function Translations() {

@@ -19,6 +19,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import DrawingArticle from "./components/Articles/DrawingArticle";
+import {DisintegrationArticle} from "./components/Articles/DisintegrationArticle";
 
 function App() {
     const [load, updateLoad] = useState(true);
@@ -44,6 +45,7 @@ function App() {
                     <Route path="/tulpamancy-guide-into-the-strange-and-wonderful" element={<DragonheartGuideTranslation />} />
                     <Route path="/consciousness-by-gazzaniga" element={<GazzaniggaArticle />} />
                     <Route path="/drawing-and-visual" element={<DrawingArticle />} />
+                    <Route path="/disintegration" element={<DisintegrationArticle />} />
                     <Route path="/blog" element={<Blog />} />
                     <Route path="*" element={<Navigate to="/"/>} />
                 </Routes>

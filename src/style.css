@@ -611,27 +611,26 @@ button:focus {
 }
 
 .article-header-gazzanigga {
-    position: relative !important;
-    display: block;
-    height: 405px;
     background: url(./Assets/Articles/brain.jpeg) center center no-repeat;
-    padding-bottom: 30px !important;
-    padding-top: 30px !important;
-    font-weight: 700;
-    color: #fff !important;
-    text-shadow: 6px 6px 6px #000;
 }
 
 .article-header-drawing {
+    background: url(./Assets/Articles/drawing.png) center center no-repeat;
+}
+
+.article-header-disintegration {
+    background: url(./Assets/Articles/disintegration_full.jpeg) center center no-repeat;
+}
+
+.article-header {
     position: relative !important;
     display: block;
     height: 405px;
-    background: url(./Assets/Articles/drawing.png) center center no-repeat;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
     font-weight: 700;
     color: #fff !important;
-    text-shadow: 6px 6px 6px #000;
+    text-shadow: 4px 4px 4px #000;
 }
 
 .article-metadata {
@@ -714,13 +713,6 @@ button:focus {
     overflow: auto;
 }
 
-.resume-left {
-    padding-right: 80px !important;
-}
-
-.resume-right {
-    padding-left: 80px !important;
-}
 
 @media (max-width: 767px) {
     .resume-left {

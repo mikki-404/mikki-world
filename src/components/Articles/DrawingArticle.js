@@ -2,6 +2,8 @@ import React, {useState, useEffect} from "react";
 import {Container, Row, Card, Col} from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import myImg from "../../Assets/Articles/brain.jpeg";
+import {NewsWidget} from "./NewsWidget";
+import {ArticleHeader} from "./ArticleHeader";
 
 function GazzaniggaArticle() {
     const [width, setWidth] = useState(1200);
@@ -13,13 +15,8 @@ function GazzaniggaArticle() {
     return (
         <div>
             <Container fluid className="article-section">
-                <Row className="article-header-drawing">
-                    <div className="article-metadata">
-                        <span>ВИЗУАЛ |</span>
-                        <time> ИЮЛЬ 2022</time>
-                    </div>
-                    <h1>Связь обучению рисованию и форсинга визуала</h1>
-                </Row>
+                <ArticleHeader bgClass="article-header-drawing"
+                               category="ВИЗУАЛ" date="ИЮЛЬ 2022" name="Связь обучения рисованию и форсинга визуала"/>
                 <Row>
                     <Col xs={12} md={8} className="article-card">
                         <Card className="article-body">
@@ -48,12 +45,7 @@ function GazzaniggaArticle() {
 
                         </Card>
                     </Col>
-                    <Col xs={6} md={4} className="article-card">
-
-                        <Card className="article-body">
-                            <p>Здесь будут последние статьи и новости :)</p>
-                        </Card>
-                    </Col>
+                    <NewsWidget/>
                 </Row>
             </Container>
         </div>
