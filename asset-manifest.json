@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e13cb9dd.css",
-    "main.js": "/static/js/main.ae2f4014.js",
+    "main.js": "/static/js/main.cf729247.js",
     "static/js/787.bdfbb4fc.chunk.js": "/static/js/787.bdfbb4fc.chunk.js",
     "static/media/drawing.png": "/static/media/drawing.35fdad43afbc2a01dedd.png",
     "static/media/stockholm-banner.png": "/static/media/stockholm-banner.5aa4be75f13130552a97.png",
@@ -17,11 +17,11 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.e13cb9dd.css.map": "/static/css/main.e13cb9dd.css.map",
-    "main.ae2f4014.js.map": "/static/js/main.ae2f4014.js.map",
+    "main.cf729247.js.map": "/static/js/main.cf729247.js.map",
     "787.bdfbb4fc.chunk.js.map": "/static/js/787.bdfbb4fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e13cb9dd.css",
-    "static/js/main.ae2f4014.js"
+    "static/js/main.cf729247.js"
   ]
 }
