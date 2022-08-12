@@ -2,14 +2,12 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
-import TranslatedFile from "./components/Translations/TranslatedFile";
+import DragonheartGuideTranslation from "./components/Translations/DragonheartGuideTranslation";
 import Articles from "./components/Articles/Articles";
 import GazzaniggaArticle from "./components/Articles/GazzaniggaArticle";
 import Blog from "./components/Blog/Blog";
-// import About from "./components/About/About";
 import Translations from "./components/Translations/Translations";
 import Footer from "./components/Footer";
-/*import Resume from "./components/Resume/ResumeNew";*/
 import {
     BrowserRouter as Router,
     Route,
@@ -43,7 +41,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/translations" element={<Translations />} />
                     <Route path="/articles" element={<Articles />} />
-                    <Route path="/tulpamancy-guide-into-the-strange-and-wonderful" element={<TranslatedFile />} />
+                    <Route path="/tulpamancy-guide-into-the-strange-and-wonderful" element={<DragonheartGuideTranslation />} />
                     <Route path="/consciousness-by-gazzaniga" element={<GazzaniggaArticle />} />
                     <Route path="/drawing-and-visual" element={<DrawingArticle />} />
                     <Route path="/blog" element={<Blog />} />

@@ -59,16 +59,6 @@ function NavBar() {
                             </Nav.Link>
                         </Nav.Item>
 
-                        {/*<Nav.Item>*/}
-                        {/*    <Nav.Link*/}
-                        {/*        as={Link}*/}
-                        {/*        to="/about"*/}
-                        {/*        onClick={() => updateExpanded(false)}*/}
-                        {/*    >*/}
-                        {/*        <AiOutlineUser style={{ marginBottom: "2px" }} /> О сайте*/}
-                        {/*    </Nav.Link>*/}
-                        {/*</Nav.Item>*/}
-
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
@@ -78,7 +68,7 @@ function NavBar() {
                                 <AiOutlineFundProjectionScreen
                                     style={{ marginBottom: "2px" }}
                                 />{" "}
-                                Статьи
+                                Заметки
                             </Nav.Link>
                         </Nav.Item>
 
@@ -105,16 +95,6 @@ function NavBar() {
                             </Nav.Link>
                         </Nav.Item>
 
-                        {/*<Nav.Item className="fork-btn">
-                            <Button
-                                href="https://github.com/soumyajit4419/Portfolio"
-                                target="_blank"
-                                className="fork-btn-inner"
-                            >
-                                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                                <AiFillStar style={{ fontSize: "1.1em" }} />
-                            </Button>
-                        </Nav.Item>*/}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
