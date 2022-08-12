@@ -611,15 +611,18 @@ button:focus {
 }
 
 .article-header-gazzanigga {
-    background: url(./Assets/Articles/brain.jpeg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(19,15,25,1) 5%, rgba(255,255,255,0) 100%),
+    url(./Assets/Articles/brain.jpeg) center center no-repeat;
 }
 
 .article-header-drawing {
-    background: url(./Assets/Articles/drawing.png) center center no-repeat;
+    background: linear-gradient(180deg, rgba(19,15,25,1) 5%, rgba(255,255,255,0) 100%),
+    url(./Assets/Articles/drawing.png) center center no-repeat;
 }
 
 .article-header-disintegration {
-    background: url(./Assets/Articles/disintegration_full.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(19,15,25,1) 5%, rgba(255,255,255,0) 100%),
+    url(./Assets/Articles/disintegration_full.jpg) center center no-repeat;
 }
 
 .article-header {
