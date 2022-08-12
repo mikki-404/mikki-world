@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import DragonheartGuideTranslation from "./components/Translations/DragonheartGuideTranslation";
 import Articles from "./components/Articles/Articles";
-import GazzaniggaArticle from "./components/Articles/GazzaniggaArticle";
+import GazzaniggaArticle from "./components/Articles/Specific/GazzaniggaArticle";
 import Blog from "./components/Blog/Blog";
 import Translations from "./components/Translations/Translations";
 import Footer from "./components/Footer";
@@ -18,8 +18,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import DrawingArticle from "./components/Articles/DrawingArticle";
-import {DisintegrationArticle} from "./components/Articles/DisintegrationArticle";
+import DrawingArticle from "./components/Articles/Specific/DrawingArticle";
+import {DisintegrationArticle} from "./components/Articles/Specific/DisintegrationArticle";
 
 function App() {
     const [load, updateLoad] = useState(true);

@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from "react";
 import {Container, Row, Card, Col} from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import myImg from "../../Assets/Articles/brain.jpeg";
-import {NewsWidget} from "./NewsWidget";
-import {ArticleHeader} from "./ArticleHeader";
+import myImg from "../../../Assets/Articles/brain.jpeg";
+import {NewsWidget} from "../NewsWidget";
+import {ArticleHeader} from "../ArticleHeader";
 
 function GazzaniggaArticle() {
     const [width, setWidth] = useState(1200);

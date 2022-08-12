@@ -20,7 +20,7 @@ function Articles() {
                         <TranslationCards
                             imgPath={disintegrationImg}
                             isBlog={true}
-                            title="Принудительная дезинтеграция психики как результат форсинга"
+                            title="Почему тульповодство - это плохо"
                             description="Мысли, мнение"
                             link="/disintegration"
                         />
