@@ -701,6 +701,7 @@ button:focus {
     font-weight: 700;
     color: #fff !important;
     text-shadow: 4px 4px 4px #000;
+    background-size:cover;
 }
 
 .article-metadata {
@@ -721,7 +722,7 @@ button:focus {
     font-family: Harding, Palatino, serif;
     color: #000; /* Цвет текста */
     text-align: justify;
-    padding: 30px !important;
+    padding: 30px 10px 30px 30px !important;
     height: auto !important;
 }
 
