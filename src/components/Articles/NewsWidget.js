@@ -29,7 +29,7 @@ export function NewsWidget() {
                 <DefaultCard
                     imgPath={drawingImg}
                     isBlog={true}
-                    title="Связь обучению рисованию и форсинга визуала"
+                    title="Связь обучения рисованию и форсинга визуала"
                     description="Наблюдение, мысли"
                     link="/drawing-and-visual"
                 />

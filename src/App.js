@@ -20,6 +20,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import DrawingArticle from "./components/Articles/Specific/DrawingArticle";
 import {DisintegrationArticle} from "./components/Articles/Specific/DisintegrationArticle";
+import StockholmTripRecord from "./components/Blog/Specific/StockholmTrip";
 
 function App() {
     const [load, updateLoad] = useState(true);
@@ -40,13 +41,21 @@ function App() {
                 <ScrollToTop />
                 <Routes>
                     <Route path="/" element={<Home />} />
+
+                    {/* TRANSLATIONS */}
                     <Route path="/translations" element={<Translations />} />
-                    <Route path="/articles" element={<Articles />} />
                     <Route path="/tulpamancy-guide-into-the-strange-and-wonderful" element={<DragonheartGuideTranslation />} />
+
+                    {/* ARTICLES */}
+                    <Route path="/articles" element={<Articles />} />
                     <Route path="/consciousness-by-gazzaniga" element={<GazzaniggaArticle />} />
                     <Route path="/drawing-and-visual" element={<DrawingArticle />} />
                     <Route path="/disintegration" element={<DisintegrationArticle />} />
+
+                    {/* BLOG */}
                     <Route path="/blog" element={<Blog />} />
+                    <Route path="/stockholm-trip" element={<StockholmTripRecord />} />
+
                     <Route path="*" element={<Navigate to="/"/>} />
                 </Routes>
                 <Footer />

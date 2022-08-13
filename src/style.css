@@ -632,6 +632,11 @@ button:focus {
     url(./Assets/Articles/disintegration_full.jpg) center center no-repeat;
 }
 
+.article-header-stockholm {
+    background: linear-gradient(180deg, rgba(19,15,25,1) 5%, rgba(255,255,255,0) 100%),
+    url(./Assets/Blog/stockholm.jpeg) center center no-repeat;
+}
+
 .article-header {
     position: relative !important;
     display: block;
@@ -652,15 +657,16 @@ button:focus {
 }
 
 .article-body {
-    font-size: 1.3em;
+    font-size: 1.15em;
     font-family: Harding,Palatino,serif;
     color: #000; /* Цвет текста */
 }
+
 .article-card {
     font-family: Harding,Palatino,serif;
     color: #000; /* Цвет текста */
     text-align: justify;
-    padding: 50px !important;
+    padding: 30px !important;
     height: auto !important;
 }
 
