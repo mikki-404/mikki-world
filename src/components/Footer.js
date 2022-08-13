@@ -1,6 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { AiFillDownCircle } from "react-icons/ai";
+import {Container, Row, Col} from "react-bootstrap";
+import {
+    AiFillDownCircle,
+    AiFillInstagram,
+    AiOutlineDownCircle,
+    AiOutlineInstagram,
+    AiOutlineSend
+} from "react-icons/ai";
 
 function Footer() {
     let date = new Date();
@@ -19,11 +25,31 @@ function Footer() {
                         <li className="social-icons">
                             <a
                                 href="https://vk.com/mikki_404"
-                                style={{ color: "white" }}
+                                style={{color: "white"}}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <AiFillDownCircle />
+                                <AiOutlineDownCircle/>
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a
+                                href="https://www.instagram.com/mikael.strain/"
+                                style={{color: "white"}}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <AiOutlineInstagram/>
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a
+                                href="https://www.t.me/mikki_404/"
+                                style={{color: "white"}}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <AiOutlineSend/>
                             </a>
                         </li>
                     </ul>
