@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import stockholmImg from "../../Assets/Blog/stockholm_400x200.jpeg";
-import DefaultCard from "../Translations/DefaultCard";
+import DefaultCard from "../Common/DefaultCard";
 
 function Blog() {
     return (

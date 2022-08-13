@@ -4,7 +4,7 @@ import brainImg from "../../Assets/Articles/brain_400x200.jpeg";
 import drawingImg from "../../Assets/Articles/drawing_400x200.jpeg";
 import disintegrationImg from "../../Assets/Articles/disintegration_400x200.jpeg";
 import tempImg from "../../Assets/default_400x200.png";
-import DefaultCard from "../Translations/DefaultCard";
+import DefaultCard from "../Common/DefaultCard";
 
 function Articles() {
     return (

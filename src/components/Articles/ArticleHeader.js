@@ -4,7 +4,7 @@ import {Row} from "react-bootstrap";
 export function ArticleHeader(props) {
     return (
         <Row className={'article-header ' + props.bgClass}>
-            <div style={{background: props.url}}>
+            <div>
                 <div className="article-metadata">
                     <span>{props.category} | </span>
                     <time>{props.date}</time>

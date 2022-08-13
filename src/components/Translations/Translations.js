@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import defaultImg from "../../Assets/default_400x200.png";
-import DefaultCard from "./DefaultCard";
+import DefaultCard from "../Common/DefaultCard";
 
 function Translations() {
     return (
@@ -15,7 +15,18 @@ function Translations() {
                     Здесь собраны некоторые гайды и статьи, переведенные мной.
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                    <Col md={4} className="translations-card">
+
+                    <Col sm={12} md={4} className="translations-card">
+                        <DefaultCard
+                            imgPath={defaultImg}
+                            isBlog={true}
+                            title="Нейроны, которые сошли с ума"
+                            description="by Кевин Симлер"
+                            link="/neurons-gone-wild"
+                        />
+                    </Col>
+
+                    <Col sm={12} md={4} className="translations-card">
                         <DefaultCard
                             imgPath={defaultImg}
                             isBlog={true}
@@ -25,13 +36,13 @@ function Translations() {
                         />
                     </Col>
 
-                    <Col md={4} className="translations-card">
+                    <Col sm={12} md={4} className="translations-card">
                         <DefaultCard
                             imgPath={defaultImg}
                             isBlog={true}
                             title="FAQ по тульповодству"
                             description="by Dragonheart"
-                            link="/tulpamancy-guide-into-the-strange-and-wonderful"
+                            link="/translations"
                         />
                     </Col>
 

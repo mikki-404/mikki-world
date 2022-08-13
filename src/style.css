@@ -146,10 +146,12 @@ button:focus {
         font-size: 1.4rem !important;
         background-color: #181a27 !important;
     }
+
     .navbar-nav .nav-item a::after {
         display: none !important;
     }
 }
+
 .navbar-brand {
     color: rgb(250, 250, 250) !important;
 }
@@ -222,7 +224,8 @@ button:focus {
     }
     10% {
         transform: rotate(14deg);
-    } /* The following five values can be played with to make the waving more or less extreme */
+    }
+    /* The following five values can be played with to make the waving more or less extreme */
     20% {
         transform: rotate(-8deg);
     }
@@ -237,17 +240,20 @@ button:focus {
     }
     60% {
         transform: rotate(0deg);
-    } /* Reset for the last half to pause */
+    }
+    /* Reset for the last half to pause */
     100% {
         transform: rotate(0deg);
     }
 }
+
 #tsparticles {
-    position: fixed !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    width: 100%;
-    height: 100%;
+    /*position: fixed !important;*/
+    /*background-repeat: no-repeat !important;*/
+    /*background-size: cover !important;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*z-index: -1;*/
 }
 
 .home-header {
@@ -289,6 +295,7 @@ button:focus {
     color: #be6adf !important;
     font-weight: 600 !important;
 }
+
 .Typewriter__cursor {
     font-size: 2.4em !important;
     color: #b562d6 !important;
@@ -300,6 +307,7 @@ button:focus {
         font-weight: 500 !important;
         position: absolute !important;
     }
+
     .Typewriter__cursor {
         display: none !important;
     }
@@ -405,8 +413,9 @@ button:focus {
     background-color: rgb(10, 4, 22);
     bottom: 0 !important;
     padding-top: 10px !important;
-    padding-bottom: 8px !important ;
+    padding-bottom: 8px !important;
 }
+
 .footer-copywright {
     text-align: center !important;
 }
@@ -432,6 +441,7 @@ button:focus {
     margin-top: 0.5em !important;
     margin-bottom: 0.5em !important;
 }
+
 .footer-icons {
     margin-top: 0.5em !important;
     margin-bottom: 0.5em !important;
@@ -441,6 +451,7 @@ button:focus {
 .blockquote-footer {
     color: #a588c0 !important;
 }
+
 /* ------------ */
 /* Articles */
 /* ------------ */
@@ -467,6 +478,7 @@ button:focus {
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
 }
+
 .translations-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
@@ -534,10 +546,12 @@ button:focus {
     background-color: #6d20c5d7 !important;
     border-color: #6d20c5d7 !important;
 }
+
 .btn:focus {
     outline: none !important;
     box-shadow: none !important;
 }
+
 .translations-heading {
     color: white !important;
     font-size: 2.3em !important;
@@ -583,6 +597,7 @@ button:focus {
     overflow: hidden !important;
     border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
+
 .tech-icon-images {
     padding: 20px !important;
     line-height: 1.6 !important;
@@ -605,6 +620,7 @@ button:focus {
         padding-top: 0 !important;
     }
 }
+
 /* --------- */
 /* Article */
 /* --------- */
@@ -618,23 +634,28 @@ button:focus {
 }
 
 .article-header-gazzanigga {
-    background: linear-gradient(180deg, rgba(19,15,25,1) 5%, rgba(255,255,255,0) 100%),
+    background: linear-gradient(180deg, rgba(19, 15, 25, 1) 5%, rgba(255, 255, 255, 0) 100%),
     url(./Assets/Articles/brain.jpeg) center center no-repeat;
 }
 
 .article-header-drawing {
-    background: linear-gradient(180deg, rgba(19,15,25,1) 5%, rgba(255,255,255,0) 100%),
+    background: linear-gradient(180deg, rgba(19, 15, 25, 1) 5%, rgba(255, 255, 255, 0) 100%),
     url(./Assets/Articles/drawing.png) center center no-repeat;
 }
 
 .article-header-disintegration {
-    background: linear-gradient(180deg, rgba(19,15,25,1) 5%, rgba(255,255,255,0) 100%),
+    background: linear-gradient(180deg, rgba(19, 15, 25, 1) 5%, rgba(255, 255, 255, 0) 100%),
     url(./Assets/Articles/disintegration_full.jpg) center center no-repeat;
 }
 
 .article-header-stockholm {
-    background: linear-gradient(180deg, rgba(19,15,25,1) 5%, rgba(255,255,255,0) 100%),
+    background: linear-gradient(180deg, rgba(19, 15, 25, 1) 5%, rgba(255, 255, 255, 0) 100%),
     url(./Assets/Blog/stockholm.jpeg) center center no-repeat;
+}
+
+.article-header-neurons-gone-wild {
+    background: linear-gradient(180deg, rgba(19, 15, 25, 1) 5%, rgba(255, 255, 255, 0) 100%),
+    url(./Assets/Translations/neurons-gone-wild.jpeg) center center no-repeat;
 }
 
 .article-header {
@@ -658,47 +679,80 @@ button:focus {
 
 .article-body {
     font-size: 1.15em;
-    font-family: Harding,Palatino,serif;
+    font-family: Harding, Palatino, serif;
     color: #000; /* Цвет текста */
 }
 
 .article-card {
-    font-family: Harding,Palatino,serif;
+    font-family: Harding, Palatino, serif;
     color: #000; /* Цвет текста */
     text-align: justify;
     padding: 30px !important;
     height: auto !important;
 }
 
-.article-body>p {
+.article-body > p {
     padding-left: 50px !important;
     padding-right: 50px !important;
     margin: 1.1rem 0;
 }
 
+.article-body > h3 {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #000 !important;
+    justify-content: center;
+    padding-top: 20px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.article-body > blockquote {
+    color: #000 !important;
+    padding-top: 20px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+
 @media (max-width: 767px) {
 
     .article-body {
         font-size: 1.2em;
-        font-family: Harding,Palatino,serif;
+        font-family: Harding, Palatino, serif;
         color: #000; /* Цвет текста */
     }
 
     .article-card {
-        font-family: Harding,Palatino,serif;
+        font-family: Harding, Palatino, serif;
         color: #000; /* Цвет текста */
         text-align: justify;
         padding: 10px !important;
         height: auto !important;
     }
 
-    .article-body>p {
+    .article-body > p {
         padding-left: 20px !important;
         padding-right: 20px !important;
         margin: 1.1rem 0;
     }
 }
-
 
 
 .translation {
@@ -711,6 +765,7 @@ button:focus {
 .react-pdf__Page {
     margin-top: 10px;
 }
+
 .react-pdf__Page__textContent {
     margin: 0 auto;
     width: 80% !important;
@@ -745,6 +800,7 @@ button:focus {
         padding-left: 15px !important;
     }
 }
+
 .resume .resume-title {
     font-size: 2em;
     font-weight: 700;
@@ -821,6 +877,7 @@ button:focus {
     animation-fill-mode: forwards;
     animation-duration: 0.85s;
 }
+
 @keyframes likeAnimation {
     0% {
         transform: scale(1.5);
@@ -848,6 +905,7 @@ button:focus {
     background-color: #a24dd386 !important;
     border-color: #a24dd386 !important;
 }
+
 .fork-btn-inner::after {
     display: none !important;
 }

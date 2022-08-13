@@ -1,11 +1,11 @@
 import {Card, Col} from "react-bootstrap";
 import React from "react";
-import DefaultCard from "../Translations/DefaultCard";
+import DefaultCard from "./DefaultCard";
 import disintegrationImg from "../../Assets/Articles/disintegration_400x200.jpeg";
 import brainImg from "../../Assets/Articles/brain_400x200.jpeg";
 import drawingImg from "../../Assets/Articles/drawing_400x200.jpeg";
 
-export function NewsWidget() {
+export default function NewsWidget() {
     return (
         <Col xs={12} md={4} className="article-card">
             <p className="article-metadata">НОВОЕ</p>

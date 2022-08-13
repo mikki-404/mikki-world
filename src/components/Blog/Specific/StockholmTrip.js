@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {Container, Row, Card, Col} from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import {NewsWidget} from "../../Articles/NewsWidget";
+import NewsWidget from "../../Common/NewsWidget";
 import {ArticleHeader} from "../../Articles/ArticleHeader";
 
 function StockholmTripRecord() {
