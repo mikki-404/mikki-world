@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import defaultImg from "../../Assets/default_400x200.png";
-import TranslationCards from "./TranslationsCards";
+import DefaultCard from "./DefaultCard";
 
 function Translations() {
     return (
@@ -16,7 +16,7 @@ function Translations() {
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <Col md={4} className="translations-card">
-                        <TranslationCards
+                        <DefaultCard
                             imgPath={defaultImg}
                             isBlog={true}
                             title="Тульпогайд в странное и удивительное"
@@ -26,7 +26,7 @@ function Translations() {
                     </Col>
 
                     <Col md={4} className="translations-card">
-                        <TranslationCards
+                        <DefaultCard
                             imgPath={defaultImg}
                             isBlog={true}
                             title="FAQ по тульповодству"

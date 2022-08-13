@@ -4,7 +4,7 @@ import brainImg from "../../Assets/Articles/brain_400x200.jpeg";
 import drawingImg from "../../Assets/Articles/drawing_400x200.jpeg";
 import disintegrationImg from "../../Assets/Articles/disintegration_400x200.jpeg";
 import tempImg from "../../Assets/default_400x200.png";
-import TranslationCards from "../Translations/TranslationsCards";
+import DefaultCard from "../Translations/DefaultCard";
 
 function Articles() {
     return (
@@ -17,7 +17,7 @@ function Articles() {
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
                     <Col md={4} className="article-card">
-                        <TranslationCards
+                        <DefaultCard
                             imgPath={disintegrationImg}
                             isBlog={true}
                             title="Почему тульповодство - это плохо"
@@ -27,7 +27,7 @@ function Articles() {
                     </Col>
 
                     <Col md={4} className="article-card">
-                        <TranslationCards
+                        <DefaultCard
                             imgPath={brainImg}
                             isBlog={true}
                             title="Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»"
@@ -37,7 +37,7 @@ function Articles() {
                     </Col>
 
                     <Col md={4} className="article-card">
-                        <TranslationCards
+                        <DefaultCard
                             imgPath={drawingImg}
                             isBlog={true}
                             title="Связь обучению рисованию и форсинга визуала"
@@ -47,7 +47,7 @@ function Articles() {
                     </Col>
 
                     <Col md={4} className="article-card">
-                        <TranslationCards
+                        <DefaultCard
                             imgPath={tempImg}
                             isBlog={true}
                             title="Будущая статья"

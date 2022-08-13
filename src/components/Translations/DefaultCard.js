@@ -2,10 +2,10 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import {Link} from "react-router-dom";
 
-function TranslationCards(props) {
+export default function DefaultCard(props) {
     return (
         <Link to={props.link}>
-            <Card className="blog-card-view" hoverable>
+            <Card className="default-card-view" hoverable>
                 <Card.Img variant="top" src={props.imgPath} alt="card-img"/>
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
@@ -17,5 +17,3 @@ function TranslationCards(props) {
         </Link>
     );
 }
-
-export default TranslationCards;

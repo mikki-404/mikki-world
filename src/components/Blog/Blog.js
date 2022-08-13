@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import stockholmImg from "../../Assets/Blog/stockholm-banner.png";
-import TranslationCards from "../Translations/TranslationsCards";
+import DefaultCard from "../Translations/DefaultCard";
 
 function Blog() {
     return (
@@ -13,7 +13,7 @@ function Blog() {
                 </h1>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <Col md={12} className="blog-card">
-                        <TranslationCards
+                        <DefaultCard
                             imgPath={stockholmImg}
                             isBlog={true}
                             title="Поездка в Стокгольм"
