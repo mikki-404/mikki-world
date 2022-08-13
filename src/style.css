@@ -516,6 +516,25 @@ button:focus {
     font-weight: 500 !important;
 }
 
+.nav-card-view-mobile {
+    display: none;
+}
+
+.nav-card-view-desktop {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .nav-card-view-desktop {
+        display: none;
+    }
+
+    .nav-card-view-mobile {
+        padding-top: 30px !important;
+        display: block;
+    }
+}
+
 .news-card-view {
     background-color: transparent !important;
     color: white !important;

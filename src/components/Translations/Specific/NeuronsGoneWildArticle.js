@@ -6,6 +6,38 @@ import {ArticleHeader} from "../../Articles/ArticleHeader";
 import agentsImg from "../../../Assets/Translations/neurons-gone-wild-agents.jpeg";
 import NewsWidgetContent from "../../Common/NewsWidgetContent";
 
+function Navigation(props) {
+    return (
+        <div className={props.cssClassName}>
+            <p className="article-metadata">НАВИГАЦИЯ</p>
+            <Card className="nav-card-view">
+                <ul>
+                    <li>
+                        <a href="#intro">
+                            <p className="nav-card-view-link">НЕЙРОНЫ, ЭГОИСТИЧНЫЕ И ДИКИЕ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#level1">
+                            <p className="nav-card-view-link">АГЕНТЫ ВО ВСЕЙ КРАСЕ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#level2">
+                            <p className="nav-card-view-link">УРОВЕНЬ 2: МОДУЛИ</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#level3">
+                            <p className="nav-card-view-link">УРОВЕНЬ 3: СУБЛИЧНОСТНЫЕ АГЕНТЫ</p>
+                        </a>
+                    </li>
+                </ul>
+            </Card>
+        </div>
+    )
+}
+
 export function NeuronsGoneWildArticle() {
     const [width, setWidth] = useState(1200);
 
@@ -19,6 +51,7 @@ export function NeuronsGoneWildArticle() {
                 <ArticleHeader bgClass="article-header-neurons-gone-wild"
                                category="ПЕРЕВОД" date="ИЮНЬ 2022" name="Нейроны, которые сошли с ума"/>
                 <Row>
+                    <Navigation cssClassName="nav-card-view-mobile"></Navigation>
                     <Col xs={12} md={8} className="article-card">
 
                         <Card className="article-body tab-content mb-5">
@@ -186,31 +219,7 @@ export function NeuronsGoneWildArticle() {
                     </Col>
 
                     <Col xs={12} md={4} className="article-card">
-                        <p className="article-metadata">НАВИГАЦИЯ</p>
-                        <Card className="nav-card-view">
-                                <ul>
-                                    <li>
-                                        <a href="#intro">
-                                        <p className="nav-card-view-link">НЕЙРОНЫ, ЭГОИСТИЧНЫЕ И ДИКИЕ</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#level1">
-                                            <p className="nav-card-view-link">АГЕНТЫ ВО ВСЕЙ КРАСЕ</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#level2">
-                                            <p className="nav-card-view-link">УРОВЕНЬ 2: МОДУЛИ</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#level3">
-                                            <p className="nav-card-view-link">УРОВЕНЬ 3: СУБЛИЧНОСТНЫЕ АГЕНТЫ</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                        </Card>
+                        <Navigation cssClassName="nav-card-view-desktop"></Navigation>
                         <br/>
                         <NewsWidgetContent/>
                     </Col>
