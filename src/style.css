@@ -501,6 +501,13 @@ button:focus {
     height: 100% !important;
 }
 
+.nav-card-view {
+    background-color: transparent !important;
+    box-shadow: 1px 3px 3px 1px rgba(145, 77, 161, 0.459) !important;
+    color: white !important;
+    transition: all 0.5s ease 0s !important;
+}
+
 .news-card-view {
     background-color: transparent !important;
     color: white !important;
@@ -694,7 +701,7 @@ button:focus {
 .article-body > p {
     padding-left: 50px !important;
     padding-right: 50px !important;
-    margin: 1.1rem 0;
+    margin: 0.7rem 0;
 }
 
 .article-body > h3 {
@@ -714,6 +721,7 @@ blockquote {
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
 }
+
 blockquote:before {
     color: #ccc;
     content: open-quote;
@@ -728,6 +736,10 @@ blockquote:before {
     padding-top: 20px !important;
     padding-left: 50px !important;
     padding-right: 50px !important;
+}
+
+.article-body > img {
+    padding: 10px 50px !important;
 }
 
 

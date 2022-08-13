@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import defaultImg from "../../Assets/default_400x200.png";
+import neuronsGoneWildImg from "../../Assets/Translations/neurons-gone-wild_400x200.jpeg";
 import DefaultCard from "../Common/DefaultCard";
 
 function Translations() {
@@ -18,7 +19,7 @@ function Translations() {
 
                     <Col sm={12} md={4} className="translations-card">
                         <DefaultCard
-                            imgPath={defaultImg}
+                            imgPath={neuronsGoneWildImg}
                             isBlog={true}
                             title="Нейроны, которые сошли с ума"
                             description="by Кевин Симлер"
