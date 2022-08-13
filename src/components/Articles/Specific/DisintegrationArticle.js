@@ -14,7 +14,7 @@ export function DisintegrationArticle() {
     return (
         <div>
             <Container fluid className="article-section">
-                <ArticleHeader bgClass="article-header-neurons-gone-wild"
+                <ArticleHeader bgClass="article-header-disintegration"
                                category="МНЕНИЕ" date="АВГУСТ 2022" name="Почему тульповодство - это плохо"/>
                 <Row>
                     <Col xs={12} md={8} className="article-card">
