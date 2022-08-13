@@ -504,8 +504,16 @@ button:focus {
 .nav-card-view {
     background-color: transparent !important;
     box-shadow: 1px 3px 3px 1px rgba(145, 77, 161, 0.459) !important;
-    color: white !important;
     transition: all 0.5s ease 0s !important;
+    color: white;
+}
+
+
+.nav-card-view-link {
+    color: #fff !important;
+    text-shadow: 6px 6px 6px #000;
+    font-size: 0.9em !important;
+    font-weight: 500 !important;
 }
 
 .news-card-view {
