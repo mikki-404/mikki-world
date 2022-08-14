@@ -8,7 +8,7 @@ import DefaultCard from "../Common/DefaultCard";
 
 function Articles() {
     return (
-        <Container fluid className="translations-section">
+        <Container fluid className="item-list-section">
             {/*<Particle />*/}
             <Container>
                 <h1 className="section-heading">

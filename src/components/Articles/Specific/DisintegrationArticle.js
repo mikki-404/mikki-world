@@ -20,7 +20,7 @@ export function DisintegrationArticle() {
                 <ArticleHeader img={headerImg}
                                category="МНЕНИЕ" date="АВГУСТ 2022" name="Почему тульповодство - это плохо"/>
                 <Row>
-                    <Col xs={12} md={8} className="article-card">
+                    <Col xs={12} md={9} className="article-card">
                         <Card className="article-body">
 
                             <br/>

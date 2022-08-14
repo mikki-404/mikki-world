@@ -6,7 +6,7 @@ import DefaultCard from "../Common/DefaultCard";
 
 function Translations() {
     return (
-        <Container fluid className="translations-section">
+        <Container fluid className="item-list-section">
             {/*<Particle />*/}
             <Container>
                 <h1 className="section-heading">
@@ -17,7 +17,7 @@ function Translations() {
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-                    <Col sm={12} md={4} className="translations-card">
+                    <Col md={4} className="article-card">
                         <DefaultCard
                             imgPath={neuronsGoneWildImg}
                             isBlog={true}
@@ -27,7 +27,7 @@ function Translations() {
                         />
                     </Col>
 
-                    <Col sm={12} md={4} className="translations-card">
+                    <Col md={4} className="article-card">
                         <DefaultCard
                             imgPath={defaultImg}
                             isBlog={true}
@@ -37,7 +37,7 @@ function Translations() {
                         />
                     </Col>
 
-                    <Col sm={12} md={4} className="translations-card">
+                    <Col md={4} className="article-card">
                         <DefaultCard
                             imgPath={defaultImg}
                             isBlog={true}

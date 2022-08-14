@@ -17,7 +17,7 @@ function DragonheartGuideTranslation() {
 
     return (
         <div>
-            <Container fluid className="translations-section">
+            <Container fluid className="item-list-section">
                 <p className="article-metadata">Тульпогайд в странное и удивительное <b className="purple">by Dragonheart</b></p>
                     <div className="all-page-container">
                         <AllPagesPDFContainer pdf={guideLink} />

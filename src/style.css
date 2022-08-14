@@ -424,36 +424,11 @@ button:focus {
 /* ------------ */
 /*   Articles   */
 /* ------------ */
-.translations-section {
+.item-list-section {
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
-}
-
-.translations-card {
-    padding: 50px 25px !important;
-    height: auto !important;
-}
-
-.translations-card-view {
-    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-    color: white !important;
-    background-color: transparent !important;
-    opacity: 0.9 !important;
-    transition: all 0.5s ease 0s !important;
-    height: 100% !important;
-}
-
-.translations-card-view:hover {
-    transform: scale(1.02) !important;
-    overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
-}
-
-.blog-card {
-    padding: 50px 25px !important;
-    height: auto !important;
 }
 
 .default-card-view {
@@ -586,7 +561,7 @@ button:focus {
     font-family: Harding, Palatino, serif;
     color: #000; /* Цвет текста */
     text-align: justify;
-    padding: 30px 10px 30px 30px !important;
+    padding: 25px 10px 25px 25px !important;
     height: auto !important;
 }
 

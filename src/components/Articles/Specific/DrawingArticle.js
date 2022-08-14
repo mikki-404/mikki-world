@@ -19,7 +19,7 @@ function DrawingArticle() {
                 <ArticleHeader img={headerImg} category="ВИЗУАЛ" date="ИЮЛЬ 2022"
                                name="Связь обучения рисованию и форсинга визуала"/>
                 <Row>
-                    <Col xs={12} md={8} className="article-card">
+                    <Col xs={12} md={9} className="article-card">
                         <Card className="article-body">
 
                             <br/>

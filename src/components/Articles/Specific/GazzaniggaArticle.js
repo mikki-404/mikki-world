@@ -20,7 +20,7 @@ function GazzaniggaArticle() {
                 <ArticleHeader img={headerImg}
                                category="СОЗНАНИЕ" date="ИЮЛЬ 2022" name="Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»"/>
                 <Row>
-                    <Col xs={12} md={8} className="article-card">
+                    <Col xs={12} md={9} className="article-card">
                         <Card className="article-body">
 
                             <br/>
