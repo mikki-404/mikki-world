@@ -25,12 +25,7 @@ function NavBar() {
     window.addEventListener("scroll", scrollHandler);
 
     return (
-        <Navbar
-            expanded={expand}
-            fixed="top"
-            expand="md"
-            className={navColour ? "sticky" : "navbar"}
-        >
+        <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
             <Container>
                 <Navbar.Brand href="/" className="d-flex">
                     <img src={logo} className="img-fluid logo" alt="brand"/>
@@ -54,38 +49,20 @@ function NavBar() {
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to={ARTICLES_PATH}
-                                onClick={() => updateExpanded(false)}
-                            >
-                                <AiOutlineFundProjectionScreen
-                                    style={{marginBottom: "2px"}}
-                                />{" "}
-                                Заметки
+                            <Nav.Link as={Link} to={ARTICLES_PATH} onClick={() => updateExpanded(false)}>
+                                <AiOutlineFundProjectionScreen style={{marginBottom: "2px"}}/>{" "} Заметки
                             </Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to={TRANSLATIONS_PATH}
-                                onClick={() => updateExpanded(false)}
-                            >
+                            <Nav.Link as={Link} to={TRANSLATIONS_PATH} onClick={() => updateExpanded(false)}>
                                 <CgFileDocument style={{marginBottom: "2px"}}/> Переводы
                             </Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to={BLOG_PATH}
-                                onClick={() => updateExpanded(false)}
-                            >
-                                <ImBlog
-                                    style={{marginBottom: "2px"}}
-                                />{" "}
-                                Блог
+                            <Nav.Link as={Link} to={BLOG_PATH} onClick={() => updateExpanded(false)}>
+                                <ImBlog style={{marginBottom: "2px"}}/>{" "}Блог
                             </Nav.Link>
                         </Nav.Item>
 
