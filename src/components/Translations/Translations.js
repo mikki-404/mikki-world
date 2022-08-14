@@ -1,8 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import defaultImg from "../../Assets/default_400x200.png";
 import neuronsGoneWildImg from "../../Assets/Translations/neurons-gone-wild_400x200.jpeg";
 import DefaultCard from "../Common/DefaultCard";
+import {
+    TRANSLATION_NEURONS_GONE_WILD,
+    TRANSLATION_TULPAMANCY_GUIDE_DRAGONHEART,
+    TRANSLATIONS_PATH
+} from "../../FileWithConstants";
 
 function Translations() {
     return (
@@ -12,10 +17,10 @@ function Translations() {
                 <h1 className="section-heading">
                     Мои <strong className="purple">переводы </strong>
                 </h1>
-                <p style={{ color: "white" }}>
+                <p style={{color: "white"}}>
                     Здесь собраны некоторые гайды и статьи, переведенные мной.
                 </p>
-                <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
 
                     <Col md={4} className="article-card">
                         <DefaultCard
@@ -23,7 +28,7 @@ function Translations() {
                             isBlog={true}
                             title="Нейроны, которые сошли с ума"
                             description="by Кевин Симлер"
-                            link="/neurons-gone-wild"
+                            link={TRANSLATION_NEURONS_GONE_WILD}
                         />
                     </Col>
 
@@ -33,7 +38,7 @@ function Translations() {
                             isBlog={true}
                             title="Тульпогайд в странное и удивительное"
                             description="by Dragonheart"
-                            link="/tulpamancy-guide-into-the-strange-and-wonderful"
+                            link={TRANSLATION_TULPAMANCY_GUIDE_DRAGONHEART}
                         />
                     </Col>
 
@@ -43,7 +48,7 @@ function Translations() {
                             isBlog={true}
                             title="FAQ по тульповодству"
                             description="by Dragonheart"
-                            link="/translations"
+                            link={TRANSLATIONS_PATH}
                         />
                     </Col>
 

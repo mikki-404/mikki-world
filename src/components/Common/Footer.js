@@ -1,12 +1,6 @@
 import React from "react";
-import {Container, Row, Col} from "react-bootstrap";
-import {
-    AiFillDownCircle,
-    AiFillInstagram,
-    AiOutlineDownCircle,
-    AiOutlineInstagram,
-    AiOutlineSend
-} from "react-icons/ai";
+import {Col, Container, Row} from "react-bootstrap";
+import {AiOutlineDownCircle, AiOutlineInstagram, AiOutlineSend} from "react-icons/ai";
 
 function Footer() {
     let date = new Date();
@@ -34,7 +28,7 @@ function Footer() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.instagram.com/mikael.strain/"
+                                href="src/components/Common/Footer"
                                 style={{color: "white"}}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -44,7 +38,7 @@ function Footer() {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.t.me/mikki_404/"
+                                href="src/components/Common/Footer"
                                 style={{color: "white"}}
                                 target="_blank"
                                 rel="noopener noreferrer"

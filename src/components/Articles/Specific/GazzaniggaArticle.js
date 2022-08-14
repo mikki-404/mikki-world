@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from "react";
-import {Container, Row, Card, Col} from "react-bootstrap";
+import React, {useEffect, useState} from "react";
+import {Card, Col, Container, Row} from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import NewsWidget from "../../Common/NewsWidget";
 import ArticleHeader from "../ArticleHeader";
@@ -18,7 +18,8 @@ function GazzaniggaArticle() {
             <Container fluid className="article-section">
 
                 <ArticleHeader img={headerImg}
-                               category="СОЗНАНИЕ" date="ИЮЛЬ 2022" name="Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»"/>
+                               category="СОЗНАНИЕ" date="ИЮЛЬ 2022"
+                               name="Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»"/>
                 <Row>
                     <Col xs={12} md={9} className="article-card">
                         <Card className="article-body">

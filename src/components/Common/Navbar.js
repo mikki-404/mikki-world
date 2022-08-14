@@ -1,20 +1,14 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo-white.png";
-import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
-import {
-    AiFillStar,
-    AiOutlineHome,
-    AiOutlineFundProjectionScreen,
-    AiOutlineUser,
-} from "react-icons/ai";
+import logo from "../../Assets/logo-white.png";
+import {Link} from "react-router-dom";
+import {ImBlog} from "react-icons/im";
+import {AiOutlineFundProjectionScreen, AiOutlineHome,} from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+import {CgFileDocument} from "react-icons/cg";
+import {ARTICLES_PATH, BLOG_PATH, TRANSLATIONS_PATH} from "../../FileWithConstants";
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
@@ -39,7 +33,7 @@ function NavBar() {
         >
             <Container>
                 <Navbar.Brand href="/" className="d-flex">
-                    <img src={logo} className="img-fluid logo" alt="brand" />
+                    <img src={logo} className="img-fluid logo" alt="brand"/>
                 </Navbar.Brand>
                 <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
@@ -55,18 +49,18 @@ function NavBar() {
                     <Nav className="ms-auto" defaultActiveKey="#home">
                         <Nav.Item>
                             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                                <AiOutlineHome style={{ marginBottom: "2px" }} /> Главная
+                                <AiOutlineHome style={{marginBottom: "2px"}}/> Главная
                             </Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/articles"
+                                to={ARTICLES_PATH}
                                 onClick={() => updateExpanded(false)}
                             >
                                 <AiOutlineFundProjectionScreen
-                                    style={{ marginBottom: "2px" }}
+                                    style={{marginBottom: "2px"}}
                                 />{" "}
                                 Заметки
                             </Nav.Link>
@@ -75,21 +69,21 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/translations"
+                                to={TRANSLATIONS_PATH}
                                 onClick={() => updateExpanded(false)}
                             >
-                                <CgFileDocument style={{ marginBottom: "2px" }} /> Переводы
+                                <CgFileDocument style={{marginBottom: "2px"}}/> Переводы
                             </Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item>
                             <Nav.Link
                                 as={Link}
-                                to="/blog"
+                                to={BLOG_PATH}
                                 onClick={() => updateExpanded(false)}
                             >
                                 <ImBlog
-                                    style={{ marginBottom: "2px" }}
+                                    style={{marginBottom: "2px"}}
                                 />{" "}
                                 Блог
                             </Nav.Link>

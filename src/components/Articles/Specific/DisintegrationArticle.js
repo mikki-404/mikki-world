@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from "react";
-import {Container, Row, Card, Col} from "react-bootstrap";
+import React, {useEffect, useState} from "react";
+import {Card, Col, Container, Row} from "react-bootstrap";
 import NewsWidget from "../../Common/NewsWidget";
 import ArticleHeader from "../ArticleHeader";
 

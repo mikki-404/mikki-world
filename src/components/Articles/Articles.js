@@ -1,10 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import brainImg from "../../Assets/Articles/brain_400x200.jpeg";
 import drawingImg from "../../Assets/Articles/drawing_400x200.jpeg";
 import disintegrationImg from "../../Assets/Articles/disintegration_400x200.jpeg";
 import tempImg from "../../Assets/default_400x200.png";
 import DefaultCard from "../Common/DefaultCard";
+import {ARTICLE_CONSCIOUSNESS_BY_GAZZANIGA, ARTICLE_DRAWING_AND_VISUAL} from "../../FileWithConstants";
 
 function Articles() {
     return (
@@ -14,7 +15,7 @@ function Articles() {
                 <h1 className="section-heading">
                     Небольшие <strong className="purple">статьи и мысли </strong> на тульпотематику
                 </h1>
-                <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
 
                     <Col md={4} className="article-card">
                         <DefaultCard
@@ -32,7 +33,7 @@ function Articles() {
                             isBlog={true}
                             title="Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»"
                             description="Саммари, отзыв"
-                            link="/consciousness-by-gazzaniga"
+                            link={ARTICLE_CONSCIOUSNESS_BY_GAZZANIGA}
                         />
                     </Col>
 
@@ -42,7 +43,7 @@ function Articles() {
                             isBlog={true}
                             title="Связь обучения рисованию и форсинга визуала"
                             description="Наблюдение, мысли"
-                            link="/drawing-and-visual"
+                            link={ARTICLE_DRAWING_AND_VISUAL}
                         />
                     </Col>
 

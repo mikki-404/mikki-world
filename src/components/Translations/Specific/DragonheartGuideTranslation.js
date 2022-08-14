@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
-import { Document, Page, pdfjs } from "react-pdf";
+import React, {useEffect, useState} from "react";
+import {Container} from "react-bootstrap";
+import {pdfjs} from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import AllPagesPDFContainer from "../AllPagesPDFContainer";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const guideLink =
@@ -18,10 +19,11 @@ function DragonheartGuideTranslation() {
     return (
         <div>
             <Container fluid className="item-list-section">
-                <p className="article-metadata">Тульпогайд в странное и удивительное <b className="purple">by Dragonheart</b></p>
-                    <div className="all-page-container">
-                        <AllPagesPDFContainer pdf={guideLink} />
-                    </div>
+                <p className="article-metadata">Тульпогайд в странное и удивительное <b className="purple">by
+                    Dragonheart</b></p>
+                <div className="all-page-container">
+                    <AllPagesPDFContainer pdf={guideLink}/>
+                </div>
             </Container>
         </div>
     );
