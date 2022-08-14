@@ -607,6 +607,9 @@ blockquote:before {
 
 .article-body img {
     padding: 10px 50px !important;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 767px) {
@@ -630,6 +633,14 @@ blockquote:before {
         padding-right: 20px !important;
         margin: 1.1rem 0;
     }
+
+    .article-body img {
+        padding: 10px 10px !important;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 /* For pdf */
