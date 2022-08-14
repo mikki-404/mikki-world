@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import {Card, Col, Container, Row} from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import NewsWidget from "../../Common/NewsWidget";
@@ -7,11 +7,6 @@ import ArticleHeader from "../ArticleHeader";
 import headerImg from "../../../Assets/Articles/drawing.png";
 
 function DrawingArticle() {
-    const [width, setWidth] = useState(1200);
-
-    useEffect(() => {
-        setWidth(window.innerWidth);
-    }, []);
 
     return (
         <div>
@@ -21,7 +16,6 @@ function DrawingArticle() {
                 <Row>
                     <Col xs={12} md={9} className="article-card">
                         <Card className="article-body">
-
                             <br/>
                             <p>На днях задумался, что форсинг визуала должен благотворно влиять на рисование, и
                                 наоборот.</p>
@@ -42,8 +36,6 @@ function DrawingArticle() {
                                 направлен на повышение четкости и детальности образов в воображении. Так что одно может
                                 помочь другому. Потому планируем параллельно работать по обоим направлениям ближайшие
                                 месяцы.</p>
-
-
                         </Card>
                     </Col>
                     <NewsWidget/>

@@ -7,16 +7,10 @@ import ArticleHeader from "../ArticleHeader";
 import headerImg from "../../../Assets/Articles/brain.jpeg";
 
 function GazzaniggaArticle() {
-    const [width, setWidth] = useState(1200);
-
-    useEffect(() => {
-        setWidth(window.innerWidth);
-    }, []);
 
     return (
         <div>
             <Container fluid className="article-section">
-
                 <ArticleHeader img={headerImg}
                                category="СОЗНАНИЕ" date="ИЮЛЬ 2022"
                                name="Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»"/>

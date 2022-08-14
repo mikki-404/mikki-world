@@ -13,11 +13,12 @@ import Footer from "./components/Common/Footer";
 
 import Translations from "./components/Translations/Translations";
 import DragonheartGuideTranslation from "./components/Translations/Specific/DragonheartGuideTranslation";
+import NeuronsGoneWildArticle from "./components/Translations/Specific/NeuronsGoneWildArticle";
 
 import Articles from "./components/Articles/Articles";
 import GazzanigaArticle from "./components/Articles/Specific/GazzaniggaArticle";
 import DrawingArticle from "./components/Articles/Specific/DrawingArticle";
-import {DisintegrationArticle} from "./components/Articles/Specific/DisintegrationArticle";
+import DisintegrationArticle from "./components/Articles/Specific/DisintegrationArticle";
 
 import Blog from "./components/Blog/Blog";
 import StockholmTripRecord from "./components/Blog/Specific/StockholmTrip";
@@ -25,8 +26,8 @@ import StockholmTripRecord from "./components/Blog/Specific/StockholmTrip";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {NeuronsGoneWildArticle} from "./components/Translations/Specific/NeuronsGoneWildArticle";
-import * as Constants from "./FileWithConstants";
+
+import * as Links from "./Links";
 
 function App() {
     const [load, updateLoad] = useState(true);
@@ -49,19 +50,19 @@ function App() {
                     <Route path="/" element={<Home />} />
 
                     {/* TRANSLATIONS */}
-                    <Route path={Constants.TRANSLATIONS_PATH} element={<Translations />} />
-                    <Route path={Constants.TRANSLATION_TULPAMANCY_GUIDE_DRAGONHEART} element={<DragonheartGuideTranslation />} />
-                    <Route path={Constants.TRANSLATION_NEURONS_GONE_WILD} element={<NeuronsGoneWildArticle />} />
+                    <Route path={Links.TRANSLATIONS_PATH} element={<Translations />} />
+                    <Route path={Links.TRANSLATION_TULPAMANCY_GUIDE_DRAGONHEART} element={<DragonheartGuideTranslation />} />
+                    <Route path={Links.TRANSLATION_NEURONS_GONE_WILD} element={<NeuronsGoneWildArticle />} />
 
                     {/* ARTICLES */}
-                    <Route path={Constants.ARTICLES_PATH} element={<Articles />} />
-                    <Route path={Constants.ARTICLE_CONSCIOUSNESS_BY_GAZZANIGA} element={<GazzanigaArticle />} />
-                    <Route path={Constants.ARTICLE_DRAWING_AND_VISUAL} element={<DrawingArticle />} />
-                    <Route path={Constants.ARTICLE_DISINTEGRATION} element={<DisintegrationArticle />} />
+                    <Route path={Links.ARTICLES_PATH} element={<Articles />} />
+                    <Route path={Links.ARTICLE_CONSCIOUSNESS_BY_GAZZANIGA} element={<GazzanigaArticle />} />
+                    <Route path={Links.ARTICLE_DRAWING_AND_VISUAL} element={<DrawingArticle />} />
+                    <Route path={Links.ARTICLE_DISINTEGRATION} element={<DisintegrationArticle />} />
 
                     {/* BLOG */}
-                    <Route path={Constants.BLOG_PATH} element={<Blog />} />
-                    <Route path={Constants.BLOG_STOCKHOLM_TRIP_PATH} element={<StockholmTripRecord />} />
+                    <Route path={Links.BLOG_PATH} element={<Blog />} />
+                    <Route path={Links.BLOG_STOCKHOLM_TRIP_PATH} element={<StockholmTripRecord />} />
 
                     <Route path="*" element={<Navigate to="/"/>} />
                 </Routes>

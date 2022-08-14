@@ -1,7 +1,7 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import DefaultCard from "../Common/DefaultCard";
-import * as Constants from "../../FileWithConstants";
+import * as Constants from "../../Links";
 import stockholmImg from "../../Assets/Blog/stockholm_400x200.jpeg";
 
 const Data = [

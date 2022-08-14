@@ -3,7 +3,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import defaultImg from "../../Assets/default_400x200.png";
 import neuronsGoneWildImg from "../../Assets/Translations/neurons-gone-wild_400x200.jpeg";
 import DefaultCard from "../Common/DefaultCard";
-import * as Constants from "../../FileWithConstants";
+import * as Constants from "../../Links";
 
 const Data = [
     {

@@ -4,7 +4,7 @@ import DefaultCard from "./DefaultCard";
 import disintegrationImg from "../../Assets/Articles/disintegration_400x200.jpeg";
 import brainImg from "../../Assets/Articles/brain_400x200.jpeg";
 import drawingImg from "../../Assets/Articles/drawing_400x200.jpeg";
-import * as Constants from "../../FileWithConstants";
+import * as Constants from "../../Links";
 
 const Data = [
     {

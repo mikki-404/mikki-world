@@ -1,9 +1,9 @@
-{/* CONSTANTS */}
+{/* lINK CONSTANTS */}
 
 {/* TRANSLATIONS */}
 export const TRANSLATIONS_PATH = "/translations"
-export const TRANSLATION_TULPAMANCY_GUIDE_DRAGONHEART = '/tulpamancy-guide-into-the-strange-and-wonderful';
-export const TRANSLATION_NEURONS_GONE_WILD = '/neurons-gone-wild';
+export const TRANSLATION_TULPAMANCY_GUIDE_DRAGONHEART = "/tulpamancy-guide-into-the-strange-and-wonderful";
+export const TRANSLATION_NEURONS_GONE_WILD = "/neurons-gone-wild";
 
 {/* ARTICLES */}
 export const ARTICLES_PATH = "/articles";

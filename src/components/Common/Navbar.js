@@ -8,7 +8,7 @@ import {ImBlog} from "react-icons/im";
 import {AiOutlineFundProjectionScreen, AiOutlineHome,} from "react-icons/ai";
 
 import {CgFileDocument} from "react-icons/cg";
-import {ARTICLES_PATH, BLOG_PATH, TRANSLATIONS_PATH} from "../../FileWithConstants";
+import {ARTICLES_PATH, BLOG_PATH, TRANSLATIONS_PATH} from "../../Links";
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);

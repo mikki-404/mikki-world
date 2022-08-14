@@ -45,7 +45,7 @@ function Navigation(props) {
     )
 }
 
-export function NeuronsGoneWildArticle() {
+export default function NeuronsGoneWildArticle() {
     const [width, setWidth] = useState(1200);
 
     useEffect(() => {
