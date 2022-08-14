@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.26304633.css",
-    "main.js": "/static/js/main.719051e0.js",
+    "main.js": "/static/js/main.ba193a65.js",
     "static/js/787.bdfbb4fc.chunk.js": "/static/js/787.bdfbb4fc.chunk.js",
     "static/media/drawing.png": "/static/media/drawing.35fdad43afbc2a01dedd.png",
     "static/media/neurons-gone-wild.jpeg": "/static/media/neurons-gone-wild.9581d9ff0f69cfee7db1.jpeg",
@@ -21,11 +21,11 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.26304633.css.map": "/static/css/main.26304633.css.map",
-    "main.719051e0.js.map": "/static/js/main.719051e0.js.map",
+    "main.ba193a65.js.map": "/static/js/main.ba193a65.js.map",
     "787.bdfbb4fc.chunk.js.map": "/static/js/787.bdfbb4fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26304633.css",
-    "static/js/main.719051e0.js"
+    "static/js/main.ba193a65.js"
   ]
 }
