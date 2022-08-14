@@ -2,9 +2,11 @@ import React, {useState, useEffect} from "react";
 import {Container, Row, Card, Col} from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import NewsWidget from "../../Common/NewsWidget";
-import {ArticleHeader} from "../ArticleHeader";
+import ArticleHeader from "../ArticleHeader";
 
-function GazzaniggaArticle() {
+import headerImg from "../../../Assets/Articles/drawing.png";
+
+function DrawingArticle() {
     const [width, setWidth] = useState(1200);
 
     useEffect(() => {
@@ -14,8 +16,8 @@ function GazzaniggaArticle() {
     return (
         <div>
             <Container fluid className="article-section">
-                <ArticleHeader bgClass="article-header-drawing"
-                               category="ВИЗУАЛ" date="ИЮЛЬ 2022" name="Связь обучения рисованию и форсинга визуала"/>
+                <ArticleHeader img={headerImg} category="ВИЗУАЛ" date="ИЮЛЬ 2022"
+                               name="Связь обучения рисованию и форсинга визуала"/>
                 <Row>
                     <Col xs={12} md={8} className="article-card">
                         <Card className="article-body">
@@ -51,4 +53,4 @@ function GazzaniggaArticle() {
     );
 }
 
-export default GazzaniggaArticle;
+export default DrawingArticle;

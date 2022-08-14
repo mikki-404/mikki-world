@@ -9,7 +9,7 @@ function Translations() {
         <Container fluid className="translations-section">
             {/*<Particle />*/}
             <Container>
-                <h1 className="translations-heading">
+                <h1 className="section-heading">
                     Мои <strong className="purple">переводы </strong>
                 </h1>
                 <p style={{ color: "white" }}>

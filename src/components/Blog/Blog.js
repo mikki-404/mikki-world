@@ -8,7 +8,7 @@ function Blog() {
         <Container fluid className="translations-section">
             {/*<Particle />*/}
             <Container>
-                <h1 className="translations-heading">
+                <h1 className="section-heading">
                     Немного <strong className="purple">о </strong> моей жизни
                 </h1>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

@@ -2,7 +2,9 @@ import React, {useState, useEffect} from "react";
 import {Container, Row, Card, Col} from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import NewsWidget from "../../Common/NewsWidget";
-import {ArticleHeader} from "../ArticleHeader";
+import ArticleHeader from "../ArticleHeader";
+
+import headerImg from "../../../Assets/Articles/brain.jpeg";
 
 function GazzaniggaArticle() {
     const [width, setWidth] = useState(1200);
@@ -15,7 +17,7 @@ function GazzaniggaArticle() {
         <div>
             <Container fluid className="article-section">
 
-                <ArticleHeader bgClass="article-header-gazzanigga"
+                <ArticleHeader img={headerImg}
                                category="СОЗНАНИЕ" date="ИЮЛЬ 2022" name="Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»"/>
                 <Row>
                     <Col xs={12} md={8} className="article-card">

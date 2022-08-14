@@ -11,7 +11,7 @@ function Articles() {
         <Container fluid className="translations-section">
             {/*<Particle />*/}
             <Container>
-                <h1 className="translations-heading">
+                <h1 className="section-heading">
                     Небольшие <strong className="purple">статьи и мысли </strong> на тульпотематику
                 </h1>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

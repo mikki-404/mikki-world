@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from "react";
 import {Container, Row, Card, Col} from "react-bootstrap";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import NewsWidget from "../../Common/NewsWidget";
-import {ArticleHeader} from "../../Articles/ArticleHeader";
-import agentsImg from "../../../Assets/Translations/neurons-gone-wild-agents.jpeg";
+import ArticleHeader from "../../Articles/ArticleHeader";
 import NewsWidgetContent from "../../Common/NewsWidgetContent";
+
+import headerImg from "../../../Assets/Translations/neurons-gone-wild.jpeg";
+import agentsImg from "../../../Assets/Translations/neurons-gone-wild-agents.jpeg";
+
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 function Navigation(props) {
     return (
@@ -48,7 +50,7 @@ export function NeuronsGoneWildArticle() {
     return (
         <div>
             <Container fluid className="article-section">
-                <ArticleHeader bgClass="article-header-neurons-gone-wild"
+                <ArticleHeader img={headerImg}
                                category="ПЕРЕВОД" date="ИЮНЬ 2022" name="Нейроны, которые сошли с ума"/>
                 <Row>
                     <Navigation cssClassName="nav-card-view-mobile"></Navigation>

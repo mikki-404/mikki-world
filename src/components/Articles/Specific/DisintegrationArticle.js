@@ -1,8 +1,11 @@
 import React, {useState, useEffect} from "react";
 import {Container, Row, Card, Col} from "react-bootstrap";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import NewsWidget from "../../Common/NewsWidget";
-import {ArticleHeader} from "../ArticleHeader";
+import ArticleHeader from "../ArticleHeader";
+
+import headerImg from "../../../Assets/Articles/disintegration_full.jpg";
+
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 export function DisintegrationArticle() {
     const [width, setWidth] = useState(1200);
@@ -14,7 +17,7 @@ export function DisintegrationArticle() {
     return (
         <div>
             <Container fluid className="article-section">
-                <ArticleHeader bgClass="article-header-disintegration"
+                <ArticleHeader img={headerImg}
                                category="МНЕНИЕ" date="АВГУСТ 2022" name="Почему тульповодство - это плохо"/>
                 <Row>
                     <Col xs={12} md={8} className="article-card">

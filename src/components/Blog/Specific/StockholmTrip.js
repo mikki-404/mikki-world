@@ -2,7 +2,9 @@ import React, {useState, useEffect} from "react";
 import {Container, Row, Card, Col} from "react-bootstrap";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import NewsWidget from "../../Common/NewsWidget";
-import {ArticleHeader} from "../../Articles/ArticleHeader";
+import ArticleHeader from "../../Articles/ArticleHeader";
+
+import headerImg from "../../../Assets/Blog/stockholm.jpeg";
 
 function StockholmTripRecord() {
     const [width, setWidth] = useState(1200);
@@ -14,7 +16,7 @@ function StockholmTripRecord() {
     return (
         <div>
             <Container fluid className="article-section">
-                <ArticleHeader bgClass="article-header-stockholm"
+                <ArticleHeader img={headerImg}
                                category="ПУТЕШЕСТВИЕ" date="АВГУСТ 2022" name="Стокгольм"/>
                 <Row>
                     <Col xs={12} md={8} className="article-card">
