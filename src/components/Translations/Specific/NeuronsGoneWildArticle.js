@@ -1,48 +1,50 @@
 import React, {useEffect, useState} from "react";
 import {Card, Col, Container, Row} from "react-bootstrap";
 import ArticleHeader from "../../Articles/ArticleHeader";
-import NewsWidgetContent from "../../Common/NewsWidgetContent";
+import useCollapse from 'react-collapsed';
+import NewsWidget from "../../Common/NewsWidget";
 
 import headerImg from "../../../Assets/Translations/neurons-gone-wild.jpeg";
 import agentsImg from "../../../Assets/Translations/neurons-gone-wild-agents.jpeg";
 
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import {AiOutlineDown, AiOutlineHome, AiOutlineUp} from "react-icons/ai";
 
-function Navigation(props) {
+const NavigationData = [
+    {href: "#intro", text: "НЕЙРОНЫ, ЭГОИСТИЧНЫЕ И ДИКИЕ"},
+    {href: "#level1", text: "АГЕНТЫ ВО ВСЕЙ КРАСЕ"},
+    {href: "#level2", text: "УРОВЕНЬ 2: МОДУЛИ"},
+    {href: "#level3", text: "УРОВЕНЬ 3: СУБЛИЧНОСТНЫЕ АГЕНТЫ"},
+    {href: "#level4", text: "УРОВЕНЬ 4: ЛИЧНОСТЬ («Я»)"}
+]
+
+const NavigationList = ({data}) => (
+    <ul>
+        {data.map(item =>
+            (<li>
+                <a href={item.href}>{item.text}</a>
+            </li>))}
+    </ul>
+)
+
+function Collapsible() {
+    const {getCollapseProps, getToggleProps, isExpanded} = useCollapse();
     return (
-        <div className={props.cssClassName}>
-            <p className="article-metadata" style={{paddingLeft: "5px"}}>НАВИГАЦИЯ</p>
-            <Card className="nav-card-view">
-                <ul>
-                    <li>
-                        <a href="#intro">
-                            <p className="nav-card-view-link">НЕЙРОНЫ, ЭГОИСТИЧНЫЕ И ДИКИЕ</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#level1">
-                            <p className="nav-card-view-link">АГЕНТЫ ВО ВСЕЙ КРАСЕ</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#level2">
-                            <p className="nav-card-view-link">УРОВЕНЬ 2: МОДУЛИ</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#level3">
-                            <p className="nav-card-view-link">УРОВЕНЬ 3: СУБЛИЧНОСТНЫЕ АГЕНТЫ</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#level4">
-                            <p className="nav-card-view-link">УРОВЕНЬ 4: ЛИЧНОСТЬ («Я»)</p>
-                        </a>
-                    </li>
-                </ul>
-            </Card>
-        </div>
-    )
+            <div className="collapsible">
+                <div className="header" {...getToggleProps()}>
+                    <p>СОДЕРЖАНИЕ
+                    { isExpanded
+                        ? <AiOutlineUp style={{marginLeft: "12px"}}/>
+                        : <AiOutlineDown style={{marginLeft: "12px"}}/>}
+                    </p>
+                </div>
+                <div {...getCollapseProps()}>
+                    <div className="content">
+                        <NavigationList data={NavigationData}/>
+                    </div>
+                </div>
+            </div>
+    );
 }
 
 export default function NeuronsGoneWildArticle() {
@@ -58,11 +60,11 @@ export default function NeuronsGoneWildArticle() {
                 <ArticleHeader img={headerImg}
                                category="ПЕРЕВОД" date="ИЮНЬ 2022" name="Нейроны, которые сошли с ума"/>
                 <Row>
-                    <Navigation cssClassName="nav-card-view-mobile"></Navigation>
                     <Col xs={12} md={9} className="article-card">
 
                         <Card className="article-body tab-content mb-5">
 
+                            <Collapsible/>
                             <br/>
                             <p>Легко отвергать богов и духов - достаточно прогнать их во имя науки.</p>
                             <p>Но принять их, или хотя бы связанные с ними переживания, и дать им научное объяснение -
@@ -333,11 +335,7 @@ export default function NeuronsGoneWildArticle() {
                         </Card>
                     </Col>
 
-                    <Col xs={12} md={3} className="article-card">
-                        <Navigation cssClassName="nav-card-view-desktop"></Navigation>
-                        <br/>
-                        <NewsWidgetContent/>
-                    </Col>
+                    <NewsWidget/>
                 </Row>
             </Container>
         </div>
