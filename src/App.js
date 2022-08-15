@@ -28,6 +28,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import * as Links from "./Links";
+import StrangeGirlWhoFellInLoveWithBrainArticle
+    from "./components/Articles/Specific/StrangeGirlWhoFellInLoveWithBrainArticle";
 
 function App() {
     const [load, updateLoad] = useState(true);
@@ -59,6 +61,8 @@ function App() {
                     <Route path={Links.ARTICLE_CONSCIOUSNESS_BY_GAZZANIGA} element={<GazzanigaArticle />} />
                     <Route path={Links.ARTICLE_DRAWING_AND_VISUAL} element={<DrawingArticle />} />
                     <Route path={Links.ARTICLE_DISINTEGRATION} element={<DisintegrationArticle />} />
+                    <Route path={Links.ARTICLE_STRANGE_GIRL_WHO_FELL_IN_LOVE_WITH_BRAIN}
+                           element={<StrangeGirlWhoFellInLoveWithBrainArticle />} />
 
                     {/* BLOG */}
                     <Route path={Links.BLOG_PATH} element={<Blog />} />

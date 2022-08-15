@@ -3,10 +3,17 @@ import {Col, Container, Row} from "react-bootstrap";
 import brainImg from "../../Assets/Articles/brain_400x200.jpeg";
 import drawingImg from "../../Assets/Articles/drawing_400x200.jpeg";
 import disintegrationImg from "../../Assets/Articles/disintegration_400x200.jpeg";
+import strangeGirlImg from "../../Assets/Articles/strange_girl_who_fell_in_love_with_brain_400x200.jpeg";
 import DefaultCard from "../Common/DefaultCard";
 import * as Constants from "../../Links";
 
 const Data = [
+    /*{
+        imgPath: strangeGirlImg,
+        title: "Немного о книге Венди Сузуки «Странная девочка, которая влюбилась в мозг»",
+        description: "Книга, отзыв",
+        link: Constants.ARTICLE_STRANGE_GIRL_WHO_FELL_IN_LOVE_WITH_BRAIN
+    },*/
     {
         imgPath: disintegrationImg,
         title: "Почему тульповодство - это плохо",
