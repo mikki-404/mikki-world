@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.4ff1e8fc.css",
-    "main.js": "/static/js/main.b9e0585f.js",
+    "main.js": "/static/js/main.88bc1df5.js",
     "static/js/787.bdfbb4fc.chunk.js": "/static/js/787.bdfbb4fc.chunk.js",
     "static/media/drawing.png": "/static/media/drawing.35fdad43afbc2a01dedd.png",
     "static/media/neurons-gone-wild.jpeg": "/static/media/neurons-gone-wild.9581d9ff0f69cfee7db1.jpeg",
     "static/media/avatar.png": "/static/media/avatar.9921753bdcafd405263c.png",
     "static/media/stockholm.jpeg": "/static/media/stockholm.162eaf5a0aa3e7d9e526.jpeg",
+    "static/media/strange_girl_who_fell_in_love_with_brain.jpeg": "/static/media/strange_girl_who_fell_in_love_with_brain.4b5149b7a13faae30b51.jpeg",
     "static/media/disintegration_full.jpg": "/static/media/disintegration_full.e9272c1e7b482fc4c8ea.jpg",
     "static/media/neurons-gone-wild-agents.jpeg": "/static/media/neurons-gone-wild-agents.fc5e31cede42df4d0099.jpeg",
     "static/media/brain.jpeg": "/static/media/brain.c4f5a6dfc2bd9c569427.jpeg",
+    "static/media/strange_girl_who_fell_in_love_with_brain_400x200.jpeg": "/static/media/strange_girl_who_fell_in_love_with_brain_400x200.684e50986f0114505ca5.jpeg",
     "static/media/neurons-gone-wild_400x200.jpeg": "/static/media/neurons-gone-wild_400x200.6397284ba89cc1d5b9b6.jpeg",
     "static/media/default_400x200.png": "/static/media/default_400x200.f77cbac4cb6e76e1681e.png",
     "static/media/home-bg.jpeg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpeg",
@@ -21,11 +23,11 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.4ff1e8fc.css.map": "/static/css/main.4ff1e8fc.css.map",
-    "main.b9e0585f.js.map": "/static/js/main.b9e0585f.js.map",
+    "main.88bc1df5.js.map": "/static/js/main.88bc1df5.js.map",
     "787.bdfbb4fc.chunk.js.map": "/static/js/787.bdfbb4fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ff1e8fc.css",
-    "static/js/main.b9e0585f.js"
+    "static/js/main.88bc1df5.js"
   ]
 }
