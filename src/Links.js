@@ -10,7 +10,7 @@ export const ARTICLES_PATH = "/articles";
 export const ARTICLE_CONSCIOUSNESS_BY_GAZZANIGA = "/consciousness-by-gazzaniga";
 export const ARTICLE_DRAWING_AND_VISUAL = "/drawing-and-visual";
 export const ARTICLE_DISINTEGRATION = "/disintegration";
-export const ARTICLE_STRANGE_GIRL_WHO_FELL_IN_LOVE_WITH_BRAIN = "/strange-girl-who-fell-in-love-with-a-brain";
+export const ARTICLE_STRANGE_GIRL_WHO_FELL_IN_LOVE_WITH_BRAIN = "/strange-girl-who-fell-in-love-with-brain";
 
 {/* BLOG */}
 export const BLOG_PATH = "/blog";

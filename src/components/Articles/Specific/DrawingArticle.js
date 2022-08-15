@@ -11,7 +11,7 @@ function DrawingArticle() {
     return (
         <div>
             <Container fluid className="article-section">
-                <ArticleHeader img={headerImg} category="ВИЗУАЛ" date="ИЮЛЬ 2022"
+                <ArticleHeader img={headerImg} category="НАБЛЮДЕНИЕ" date="ИЮЛЬ 2022"
                                name="Связь обучения рисованию и форсинга визуала"/>
                 <Row>
                     <Col xs={12} md={9} className="article-card">

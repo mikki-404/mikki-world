@@ -8,22 +8,22 @@ import DefaultCard from "../Common/DefaultCard";
 import * as Constants from "../../Links";
 
 const Data = [
-    /*{
+    {
         imgPath: strangeGirlImg,
         title: "Немного о книге Венди Сузуки «Странная девочка, которая влюбилась в мозг»",
         description: "Книга, отзыв",
         link: Constants.ARTICLE_STRANGE_GIRL_WHO_FELL_IN_LOVE_WITH_BRAIN
-    },*/
+    },
     {
         imgPath: disintegrationImg,
         title: "Почему тульповодство - это плохо",
-        description: "Мысли, мнение",
+        description: "Мнение, мысли",
         link: Constants.ARTICLE_DISINTEGRATION
     },
     {
         imgPath: brainImg,
         title: "Немного о сознании по книге М.Газзаниги «Сознание как инстинкт»",
-        description: "Саммари, отзыв",
+        description: "Книга, отзыв",
         link: Constants.ARTICLE_CONSCIOUSNESS_BY_GAZZANIGA
     },
     {
@@ -49,8 +49,11 @@ export default function Articles() {
         <Container fluid className="item-list-section">
             <Container>
                 <h1 className="section-heading">
-                    Небольшие <strong className="purple">статьи и мысли </strong> на тульпотематику
+                    Мои <strong className="purple">заметки</strong>
                 </h1>
+                <p style={{color: "white"}}>
+                    Здесь собраны небольшие статьи и мысли тульпотематику и не только
+                </p>
                 <Cards data={Data}/>
             </Container>
         </Container>
